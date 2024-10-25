@@ -1,0 +1,31 @@
+mtllib cube.mtl
+
+v 0.000000 2.000000 2.000000
+v 0.000000 0.000000 2.000000
+v 2.000000 0.000000 2.000000
+v 2.000000 2.000000 2.000000
+v 0.000000 2.000000 0.000000
+v 0.000000 0.000000 0.000000
+v 2.000000 0.000000 0.000000
+v 2.000000 2.000000 0.000000
+# 8 vertices
+
+#g front_cube
+usemtl front
+f 1 2 3 4
+#g back_cube
+usemtl back
+f 8 7 6 5
+#g right_cube
+usemtl right
+f 4 3 7 8
+#g top_cube
+usemtl top
+f 5 1 4 8
+#g left_cube
+usemtl left
+f 5 6 2 1
+#g bottom_cube
+usemtl bottom
+f 2 6 7 3
+# 6 elements
